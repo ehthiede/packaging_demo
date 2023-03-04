@@ -1,3 +1,3 @@
-from wbpj.weighted_backprojection import weighted_backprojection
+from wbpj.weighted_backprojection import weighted_backprojection_1d
 
-__all__ = [weighted_backprojection]
+__all__ = [weighted_backprojection_1d]
