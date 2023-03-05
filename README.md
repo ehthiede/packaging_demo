@@ -19,3 +19,15 @@ If images are equispaced, then the command line interface can also be used,
 ```shell
     python -m wbpj.perform_reconstruction image_file.ny 0 172 --degrees
 ```
+
+Running the Tests
+-----------------
+Tests can be run in your current environment using pytest,
+```shell
+    pytest tests/
+```
+Tests can also be run installed into a fresh environment using tox by running 
+```shell
+    tox
+```
+in this directory.
