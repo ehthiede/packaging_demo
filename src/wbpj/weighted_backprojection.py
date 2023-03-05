@@ -1,5 +1,6 @@
 import numpy as np
 import finufft
+import logging
 from wbpj.utils import build_2d_rotation_matrix
 
 
@@ -45,18 +46,23 @@ def weighted_backprojection_1d(
     npixels = np.max([i.shape[0] for i in image_stack])
     xaxis = np.linspace(-1, 1, npixels)
 
+    logging.info("Taking Fourier transform of 1D images")
     all_coords = []
     imgs_in_Fourier = []
     for img, angle in zip(image_stack, angles):
+        logging.debug("Transforming image at angle %.3f pi" % (angle / np.pi))
         all_coords.append(calculate_coords(xaxis, angle))
         imgft = finufft.nufft1d1(xaxis, img.astype("complex"), n_modes=xaxis.shape)
         imgs_in_Fourier.append(imgft)
 
+    logging.info("Slotting in images and applying ramp filter")
     all_coords = np.concatenate(all_coords, axis=0)
     all_coords /= np.max(np.abs(all_coords))
     imgs_in_Fourier = np.concatenate(imgs_in_Fourier, axis=0)
     imgs_in_Fourier = imgs_in_Fourier.astype("complex")
     imgs_in_Fourier = apply_ramp_filter(all_coords, imgs_in_Fourier)
+
+    logging.info("Taking Inverse Fourier transform to build volume")
     out = finufft.nufft2d1(
         all_coords[:, 0],
         all_coords[:, 1],
