@@ -20,8 +20,8 @@ def _setup_images():
     centerc = np.array([-1.0, -1.0])
     centers = np.vstack([centera, centerb, centerc]) / 2.0
 
-    angles = np.linspace(0, np.pi, 128, endpoint=False)
-    ax = np.linspace(-4, 4, 201)
+    angles = np.linspace(0, np.pi, 64, endpoint=False)
+    ax = np.linspace(-4, 4, 101)
 
     # Build the projection images
     imgs = []
