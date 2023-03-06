@@ -1,0 +1,13 @@
+graft docs
+graft src
+graft tests
+
+prune docs/_build
+prune tests/.pytest_cache
+
+
+include LICENSE
+include README.rst
+
+
+global-exclude *.py[cod] __pycache__ *.so *.dylib *.swp
