@@ -42,6 +42,15 @@ def weighted_backprojection_1d(
     """
     Simple implementation of the weighted backprojection algorithm for
     one-dimensional tomogram reconstruction.
+
+    Args:
+        image_stack (np.ndarray): Stack of images.  First dimension is the
+            image index and the second is the image coordinate.
+            Assumed to be centered at the rotation axis.
+        angles (np.ndarray): Angle at which each image is taken
+
+    Returns:
+        np.ndarray: the reconstructied volume.
     """
     npixels = np.max([i.shape[0] for i in image_stack])
     xaxis = np.linspace(-1, 1, npixels)
