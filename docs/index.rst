@@ -14,6 +14,7 @@ Contents
     
    readme
    api/index
+   putting-projects-on-pypi
 
 Indices and tables
 ==================
