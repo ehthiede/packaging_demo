@@ -4,9 +4,10 @@ Contents
 
 .. toctree::
    :maxdepth: 3
-
+    
+   readme
    installation
-   reference/index
+   api/index
 
 Indices and tables
 ==================

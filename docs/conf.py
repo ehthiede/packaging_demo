@@ -7,12 +7,15 @@
 # http://www.sphinx-doc.org/en/stable/config
 
 import os
-import wbpj
 
 # Project Info:
 
 project = "wbpj"
-author = "Erik Thiede"
+year = '2023'
+author = u'Erik Henning Thiede'
+version = release = u'0.0.1'
+
+copyright = '{0}, {1}'.format(year, author)
 
 extensions = [
     "sphinx.ext.mathjax",  # Equation support
@@ -24,7 +27,7 @@ extensions = [
 
 
 # If we are not on readthedocs.org, we want to explicitly use their theme
-# Note the theme needs to be installed, e.g. using 
+# Note the theme needs to be installed, e.g. using
 #
 #     pip install sphinx_rtd_theme
 #
