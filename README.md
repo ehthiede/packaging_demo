@@ -26,8 +26,3 @@ Tests can be run in your current environment using pytest,
 ```shell
     pytest tests/
 ```
-Tests can also be run installed into a fresh environment using tox by running 
-```shell
-    tox
-```
-in this directory.
