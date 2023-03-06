@@ -8,7 +8,7 @@ Overview
     :stub-columns: 1
 
     * - tests
-      - | githubactions|
+      - | |githubactions|
         
 
 .. |githubactions| image:: https://github.com/ehthiede/packaging_demo/actions/workflows/testing.yml/badge.svg?branch=master
