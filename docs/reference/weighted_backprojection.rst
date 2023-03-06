@@ -1,6 +1,7 @@
 wbpj.weighted_backprojection
 ============================
 
-.. automodule:: wbpj.weighted_backprojection
-    :members:
+.. automethod:: wbpj.weighted_backprojection.apply_ramp_filter
+
+.. automethod:: wbpj.weighted_backprojection.calculate_coords
 
