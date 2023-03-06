@@ -9,3 +9,5 @@ __pycache__
 *.swo
 
 .tox/
+
+docs/_build
