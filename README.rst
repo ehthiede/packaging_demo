@@ -7,7 +7,11 @@ Overview
 .. list-table::
     :stub-columns: 1
 
-.. |travis| image:: https://github.com/ehthiede/packaging_demo/actions/workflows/testing.yml/badge.svg?branch=master
+    * - tests
+      - | githubactions|
+        
+
+.. |githubactions| image:: https://github.com/ehthiede/packaging_demo/actions/workflows/testing.yml/badge.svg?branch=master
     :alt: Testing Status
     :target: https://github.com/ehthiede/packaging_demo/actions
 
