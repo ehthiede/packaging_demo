@@ -1,3 +1,10 @@
+Welcome to wbpj
+===============
+
+This is the documentation for wbpj,
+a simple code to do weighted backprojection.
+
+
 ========
 Contents
 ========
@@ -6,7 +13,6 @@ Contents
    :maxdepth: 3
     
    readme
-   installation
    api/index
 
 Indices and tables
