@@ -1,4 +1,5 @@
 # Code for performing weighted backprojection
+[![](https://github.com/ehthiede/packaging_demo/actions/workflows/testing.yml/badge.svg)](https://github.com/ehthiede/packaging_demo/actions)
 
 Installation
 -----------------
