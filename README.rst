@@ -11,7 +11,7 @@ Overview
       - | |githubactions|
         
 
-.. |githubactions| image:: https://github.com/ehthiede/packaging_demo/actions/workflows/testing.yml/badge.svg?branch=master
+.. |githubactions| image:: https://github.com/ehthiede/packaging_demo/actions/workflows/testing.yml/badge.svg?branch=main
     :alt: Testing Status
     :target: https://github.com/ehthiede/packaging_demo/actions
 
