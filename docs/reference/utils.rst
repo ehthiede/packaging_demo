@@ -1,5 +1,5 @@
-utils
-=====
+wbpj.utils
+==========
 
 .. automodule:: wbpj.utils
     :members:
