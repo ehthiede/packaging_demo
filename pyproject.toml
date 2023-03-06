@@ -10,5 +10,5 @@ name = "wbpj"
 version = "0.0.1"
 dependencies = [
     "numpy",
-    "finufft"
+    "finufft >= 2"
 ]

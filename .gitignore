@@ -11,3 +11,4 @@ __pycache__
 .tox/
 
 docs/_build
+dist
