@@ -15,7 +15,11 @@ Overview
     :alt: Testing Status
     :target: https://github.com/ehthiede/packaging_demo/actions
 
-Code for performing weighted backprojection in one dimension.
+Example codebase demonstrating the components in setting up a python package.
+The final package is in the main branch, different steps of the packaging procedure
+are enumerated in the various branchs.
+
+Our example code is a code that  performs weighted backprojection in one dimension.
 
 Installation
 ============
