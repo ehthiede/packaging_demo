@@ -11,11 +11,11 @@ import os
 # Project Info:
 
 project = "wbpj"
-year = '2023'
-author = u'Erik Henning Thiede'
-version = release = u'0.0.1'
+year = "2023"
+author = "Erik Henning Thiede"
+version = release = "0.0.1"
 
-copyright = '{0}, {1}'.format(year, author)
+copyright = "{0}, {1}".format(year, author)
 
 extensions = [
     "sphinx.ext.mathjax",  # Equation support
