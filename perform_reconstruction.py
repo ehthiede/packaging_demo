@@ -1,7 +1,7 @@
 import argparse
 import logging
 import numpy as np
-from wbpj.weighted_backprojection import weighted_backprojection_1d
+from weighted_backprojection import weighted_backprojection_1d
 
 
 def _parse_CLAs() -> argparse.ArgumentParser:

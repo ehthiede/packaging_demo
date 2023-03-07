@@ -1,7 +1,7 @@
 import numpy as np
 import finufft
 import logging
-from wbpj.utils import build_2d_rotation_matrix
+from utils import build_2d_rotation_matrix
 
 
 def calculate_coords(xaxis: np.ndarray, angle: float) -> np.ndarray:
